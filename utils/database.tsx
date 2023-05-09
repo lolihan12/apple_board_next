@@ -1,4 +1,6 @@
 import { MongoClient } from 'mongodb'
+// apple 컬렉션 만듦
+// const url = "mongodb+srv://lolihan12:12341234@auth.6rj43hy.mongodb.net/apple?retryWrites=true&w=majority";
 const url = "mongodb+srv://lolihan12:12341234@auth.6rj43hy.mongodb.net/?retryWrites=true&w=majority";
 const options = {  } //useNewUrlParser: true
 let connectDB :any

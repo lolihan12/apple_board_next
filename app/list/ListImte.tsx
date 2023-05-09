@@ -2,7 +2,6 @@
 import Link from "next/link"
 
 export default function ListItem({result}:any) {
-    console.log(result)
   return (
     <div>
       { result.map((item :any,i :number)=>
